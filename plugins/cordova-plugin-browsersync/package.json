@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-browsersync",
+        "scope": null,
+        "escapedName": "cordova-plugin-browsersync",
+        "name": "cordova-plugin-browsersync",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/test/cordova-projects/browsersync/node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-browsersync@latest",
+  "_id": "cordova-plugin-browsersync@0.1.6",
+  "_inCache": true,
+  "_location": "/cordova-plugin-browsersync",
+  "_nodeVersion": "6.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-browsersync-0.1.6.tgz_1479749680310_0.644954101415351"
+  },
+  "_npmUser": {
+    "name": "axemclion",
+    "email": "code@nparashuram.com"
+  },
+  "_npmVersion": "3.9.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-browsersync",
+    "scope": null,
+    "escapedName": "cordova-plugin-browsersync",
+    "name": "cordova-plugin-browsersync",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-browsersync/-/cordova-plugin-browsersync-0.1.6.tgz",
+  "_shasum": "8956e234e187d29347e71ff5d79266f3a63e1261",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-browsersync",
+  "_where": "/Users/test/cordova-projects/browsersync/node_modules",
+  "author": {
+    "name": "Parashuram",
+    "email": "code@nparashuram.com"
+  },
+  "bugs": {
+    "url": "https://github.com/axemclion/cordova-plugin-browsersync/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-browsersync",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "browser-sync": "^2.12.3",
+    "cheerio": "^0.19.0",
+    "csp-parse": "0.0.2",
+    "elementtree": "^0.1.6",
+    "glob": "^5.0.15",
+    "npm": "^2.13.5",
+    "plist": "^1.1.0",
+    "q": "^1.4.1"
+  },
+  "description": "Cordova Plugin to integrate browser-sync in the workflow",
+  "devDependencies": {
+    "browserify": "^11.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "8956e234e187d29347e71ff5d79266f3a63e1261",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-browsersync/-/cordova-plugin-browsersync-0.1.6.tgz"
+  },
+  "gitHead": "caafe5c46df6650923415c43ba522667a3f2ebd3",
+  "homepage": "https://github.com/axemclion/cordova-plugin-browsersync#readme",
+  "id": "cordova-plugin-browsersync",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "axemclion",
+      "email": "code@nparashuram.com"
+    }
+  ],
+  "name": "cordova-plugin-browsersync",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/axemclion/cordova-plugin-browsersync.git"
+  },
+  "scripts": {
+    "createHook": "browserify --node --no-bundle-external --standalone=cordova-bs-plugin -o after_prepare.js -e lib/projectHook.js"
+  },
+  "version": "0.1.6"
+}
